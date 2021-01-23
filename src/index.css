@@ -1,0 +1,477 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.footer {
+  background-color: #0088ff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer .copyright-text {
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer .social-icons {
+  padding: 0;
+  margin: 0 0 15px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer .social-icons li {
+  margin-right: 15px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.footer .social-icons li:last-child {
+  margin-right: 0;
+}
+
+.footer .email-text {
+  margin-bottom: 0;
+  text-align: right;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.copy-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header .bg-light {
+  background-color: #0000!important;
+}
+
+
+
+.navbar-expand-lg .navbar-nav {
+  margin-left: auto!important;
+  margin-right: 0!important;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.navbar-light .navbar-brand .logo-plus {
+  color: #0088ff;
+}
+.header-phone-btn {
+  background: #0088ff;
+  border-radius: 22px;
+  padding: 7px 26px!important;
+  color: #ffffff!important;
+  margin-left: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:not(:last-child) {
+  position: relative;
+  margin-right: 2px;
+  color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:not(:last-child):hover,.navbar-light .navbar-nav .nav-link:not(:last-child).active {
+  color: #0088ff;
+}
+
+.navbar-light .navbar-nav .nav-link:not(:last-child):after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background: #0088ff;
+  bottom: 0;
+  left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:not(:last-child):hover:after,.navbar-light .navbar-nav .nav-link:not(:last-child).active:after {
+  width: 100%;
+  transition: 0.3s all;
+}
+
+.section1 {
+  background-color: #f7f7f7;
+  background-image: url(./images/shape.png), url(./images/banner.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, top right;
+  background-size: 18%, 38%;
+}
+
+.slide-section1-wrapper {
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.slick-dots li {
+  height: 3px!important;
+  overflow: hidden;
+  background: #e0e7f7;
+}
+
+.slick-dots li.slick-active {
+  background: #0088ff;
+}
+
+.slide-section1-inner h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.slide-section1-inner p {
+  font-size: 14px;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.slide-section1-inner button {
+  font-size: 12px;
+  color: #ffffff;
+  border: 0;
+  background: #0088ff;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.slide-section1-wrapper .slick-dots {
+  text-align: left;
+}
+
+
+.slide-section1-inner button {
+  margin-bottom: 90px;
+}
+
+.section4 {
+  background-image: url(./images/image_7.jpg);
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.section4 {
+  color: #ffffff;
+}
+
+.section h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section p {
+  font-size: 14px;
+}
+
+.section4 .slide-meet-our-team {
+  padding: 48px 48px 0;
+}
+
+.section4 .slide-meet-our-team .slide-meet-our-team-inner img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.section4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section5 .slide-meet-our-team-inner {
+  padding-top: 115%;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  box-shadow: 0 4px 10px #818181;
+  border-radius: 20px;
+}
+
+.section5 .slide-meet-our-team {
+  position: relative;
+  max-width: 255px;
+  margin: 0 auto;
+}
+
+.section5 .slide-meet-our-team .date {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.inner-content {
+  position: absolute;
+  bottom: 0;
+  padding: 0px 20px 10px;
+  width: 100%;
+  left: 0;
+  text-align: left;
+}
+
+.inner-content h6 {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.inner-content p {
+  font-size: 12px;
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.img-62 img {
+    width: 100%;
+}
+
+.img-62 {
+  position: relative;
+    max-width: 85%;
+}
+
+.img-62 .inner_box {
+    width: 75%;
+    position: absolute;
+}
+
+.img-62 .inner_box h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.img-62 .inner_box {
+  top: 75%;
+  left: 63%;
+  background: #ffffff;
+  z-index: 1;
+  box-shadow: 0 0 4px #9b9b9b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.img-62 .inner_box h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.img-62 .inner_box p {
+  font-size: 12px;
+}
+
+.img-62 .inner_box button {
+  border: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #0088ff;
+}
+
+.img-62 .inner_box button i {
+  font-size: 9px;
+  margin-left: 2px;
+}
+
+
+.section2 .cu-table-1 {
+  position: relative;
+  background: #0088ff;
+  padding: 60px 0 30px 80px;
+  margin-top: 90px;
+}
+
+.section2 .cu-table-1 table.table {
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+.section2 .cu-table-1 table.table th,.section2 .cu-table-1 table.table td {
+  padding: 0;
+  color: #ffffff;
+}
+
+.section2 .cu-table-1 table.table th {
+  border: 0;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.section2 .cu-table-1 table.table td {
+  border-top: 0;
+  border-bottom: 1px solid #ffffff;
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.section2 .cu-table-1 table.table td:last-child {
+  text-align: right;
+}
+.section2 .cu-table-1:after {content: "";position: absolute;height: 100%;left: 100%;background: #0088ff;top: 0;width: 100vw;}
+
+.section2 {
+    overflow: hidden;
+}
+
+.section3 {padding-top: 80px;}
+
+.section3 img {
+    width: 100%;
+}
+
+.section3 h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.section3 p {
+    font-size: 14px;
+    max-width: 220px;
+    margin-bottom: 40px;
+}
+
+.section3 h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.section6 {
+  background-color: #0088ff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section6 form {
+  max-width: 354px;
+  margin: 0 auto;
+}
+
+.section6 form .form-control {
+  background: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+.section6 form .form-control::placeholder {
+color: #ffffff;
+
+}
+
+.section6 form .form-control:-ms-input-placeholder { 
+color: #ffffff;
+}
+
+.section6 form .form-control::-ms-input-placeholder {
+color: #ffffff;
+}
+
+.section6 form .form-control:focus {
+  border-color: #ffffff;
+}
+
+.section6 form {
+  text-align: center;
+}
+
+.section6 form button {
+  border: 0;
+  font-size: 16px;
+  color: #0088ff;
+  margin-top: 30px;
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 2px 20px;
+}
+
+.section7 .img_doc img {
+  width: 100%;
+}
+.er4 {
+  box-shadow: 0 0px 23px #b8b8b8;
+  border-radius: 20px;
+  padding: 48px 48px 0;
+  margin-top: 30px;
+  max-width: 94%;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+.er4 form {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+}
+
+.er4 form .form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  padding-left: 0;
+  font-size: 14px;
+  padding-right: 0;
+  font-weight: 300;
+}
+
+.er4 form .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.er4 form  .form-label {
+  font-weight: 300;
+}
+
+.er4 form {
+  font-size: 14px;
+}
+
+.section7 .img_doc {
+  max-width: 442px;
+  margin: 0 auto;
+}
+.er4 form button {
+  font-size: 12px;
+  color: #ffffff;
+  border: 0;
+  background: #0088ff;
+  padding: 7px 30px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
